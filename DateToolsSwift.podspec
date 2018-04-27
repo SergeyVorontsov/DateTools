@@ -9,8 +9,8 @@ Pod::Spec.new do |s|
   s.license      = { :type => 'MIT', :file => 'LICENSE' }
   s.author       = { "Matthew York" => "my3681@gmail.com" }
 
-  s.source       = { :git => "https://github.com/MatthewYork/DateTools.git",
-                     :tag => "#{s.version.to_s}" }
+  s.source       = { :git => "https://github.com/SergeyVorontsov/DateTools.git",
+                     :branch => "develop" }
 
   s.ios.deployment_target = '8.0'
   s.osx.deployment_target = '10.9'
