@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
   s.author       = { "Matthew York" => "my3681@gmail.com" }
 
   s.source       = { :git => "https://github.com/SergeyVorontsov/DateTools.git",
-                     :branch => "develop" }
+                     :tag => "dev" }
 
   s.ios.deployment_target = '8.0'
   s.osx.deployment_target = '10.9'
